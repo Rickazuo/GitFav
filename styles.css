@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green-400: #06181c;
+  --green-100: #4a808c;
+  --green-200: #065e7c;
+  --green-300: #092d38;
+  --green-500: #06181c;
+  --green-500-o-50: #06161b;
+  --white: #ffffff;
+  --black: #000000;
+}
