@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--roboto);
 }
 
 :root {
+  /* Colors */
   --green-400: #06181c;
   --green-100: #4a808c;
   --green-200: #065e7c;
@@ -13,4 +15,79 @@
   --green-500-o-50: #06161b;
   --white: #ffffff;
   --black: #000000;
+  --Aliases-Placeholder: #7c7c8a;
+
+  /*Font*/
+  --roboto: Roboto, sans-serif;
+}
+
+body {
+  background: var(--black);
+  font-family: var(--roboto);
+  color: var(--white);
+
+  height: 100dvh;
+}
+
+main {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6.0625rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18.3125rem;
+
+  margin-top: 7.1875rem;
+}
+
+.username-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.username-input {
+  color: var(--Aliases-Placeholder);
+  padding: 16px;
+  gap: 8px;
+  width: 17rem;
+  background: var(--green-400);
+  border: transparent;
+  border-radius: 5px;
+}
+
+.button-favorite {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 8px;
+
+  background: var(--green-200);
+  border-radius: 5px;
+
+  border: transparent;
+
+  color: var(--white);
+  font-weight: 700;
+}
+
+.username-input :placeholder-shown {
+  width: 100%;
+}
+
+table {
+  border-top-left-radius: 1rem;
+}
+
+tr {
+  background: var(--green-300);
 }
