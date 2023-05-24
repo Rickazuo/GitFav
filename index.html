@@ -14,12 +14,16 @@
     />
 
     <link rel="stylesheet" href="styles.css" />
+    <script src="./index.js" type="module" defer></script>
   </head>
   <body>
     <main>
       <div class="header">
         <img src="./assets/logo.svg" alt="logo of GitFav" />
         <div class="username-search">
+          <label class="sr-only" for="username"
+            >Digite o Github username para favoritar</label
+          >
           <input
             class="username-input"
             type="text"
@@ -42,6 +46,40 @@
             <th>Action</th>
           </tr>
         </thead>
+        <tbody>
+          <tr>
+            <td class="user">
+              <img
+                class="profile-image"
+                src="https://github.com/maykbrito.png"
+                alt="Imagem do maykbrito"
+              />
+              <a href="https://github.com/maykbrito">
+                <p>Mayk Brito</p>
+                <span>maykbrito</span>
+              </a>
+            </td>
+            <td class="repositories">76</td>
+            <td class="followers">9589</td>
+            <td class="remove">Remover</td>
+          </tr>
+          <tr>
+            <td class="user">
+              <img
+                class="profile-image"
+                src="https://github.com/diego3g.png"
+                alt="Imagem do maykbrito"
+              />
+              <a href="https://github.com/diego3g">
+                <p>Diego Fernandes</p>
+                <span>diego3g</span>
+              </a>
+            </td>
+            <td class="repositories">48</td>
+            <td class="followers">22503</td>
+            <td class="remove">Remover</td>
+          </tr>
+        </tbody>
       </table>
     </main>
   </body>
