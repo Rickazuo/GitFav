@@ -105,8 +105,23 @@ main {
 table {
   border-top-left-radius: 1rem;
   border-collapse: collapse;
-  border: 1px solid var(--green-100);
   border-radius: 5rem;
+  border: 1px solid var(--green-100);
+}
+
+table img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+table button {
+  color: var(--red);
+  cursor: pointer;
+  background: none;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1rem;
 }
 
 table * {
