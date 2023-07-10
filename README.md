@@ -28,8 +28,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto _GitFav_ foi realizado como parte do curso de desenvolvimento de software da <a href="https://www.rocketseat.com.br/" alt="Link para o site da RocketSeat" target="_blank">RocketSeat</a>.
 
-_<h2 align="center" ><a href="https://rickazuo.github.io/fase-03-Explorer--formulario-alternativo/" target="_blank">Visite o projeto online</a></h2>_
+_<h2 align="center" ><a href="https://git-fav-rickazuo.vercel.app/" target="_blank">Visite o projeto online</a></h2>_
 
 ## 📃 Colaborador
 
-This challange was made by [Ricardo](https://rickazuo.github.io/portfolio/).
+This challenge was made by [Ricardo](https://rickazuo.github.io/portfolio/).
